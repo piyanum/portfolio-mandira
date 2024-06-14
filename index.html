@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandira-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome CDN for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="dp.jpeg" alt="logo"></div>
+            <h1 class="heading">Portfolio</h1>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="button">Search</button>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is <span class="purple">Mandira Ghosh.</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">                                    
+                    <a href="https://github.com/piyanum" class="contact-link github" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img class="image-dp" src="dp.jpg" alt="developer" style="width: 290px;">
+            </div>
+        </section>
+        <section class="secondSection" id="about">
+            <h2>Academics</h2>
+            <ul class="academics-list">
+                <li>Netaji Sishu Siksha Niketan - Primary </li>
+                <li>Baharan Joy Durga High School - Secondary </li>
+                <li>Durgadashi Chaudhurani Girls' High School(Katwa) - Higher Secondary </li>
+            <li>Sister Nivedita University - B.Tech(CSE)</li>
+                </ul>
+        </section>
+
+        <section class="thirdSection">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li> 
+                <li>Public Speaking</li>
+                <li>Web Designer</li>
+            </ul>
+        </section>
+        <section class="fourthSection" id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/mandira-ghosh-794024254" class="contact-link linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://twitter.com/mandira63369" class="contact-link twitter" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="mailto:mandirapiyaghosh@gmail.com" class="contact-link email">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Portfolio - All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.', '&amp; a Web Designer.'],
+            typeSpeed: 50,
+            backSpeed: 25,
+            startDelay: 500,
+            backDelay: 500,
+            loop: true,
+            loopCount: Infinity // Infinite looping
+        });
+    </script>
+    <script src="resp.js"></script>
+</body>
+
+</html>

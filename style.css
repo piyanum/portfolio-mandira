@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(0, 0, 116);
+    background-color: rgb(29, 5, 52);
+}
+section {
+    padding: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    border: 2px solid rgb(23, 3, 31);
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgba(141, 115, 225, 0.61), rgb(166, 0, 255));
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-list li {
+    list-style-type: none;
+    padding: 22px 19px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list li a:hover {
+    color: rgb(231, 128, 11);
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.button {
+    padding: 8px;
+    background-color: hsl(286, 100%, 49%);
+    color: #ffffff;
+    border: 3px solid rgb(50, 3, 60);
+    border-radius: 19px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: hsl(286, 95%, 22%);
+    color: #ffffff;
+    border: 3px solid rgb(17, 1, 21);
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 112px 0;
+}
+
+.firstSection>div {
+    width: 32%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    color: rgb(137, 43, 226);
+}
+.button{
+    margin: 23px;
+}
+.contact-link{
+    justify-content: center;
+    gap: 6px;
+    margin: 22px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.github {
+    width: 70px;
+    background-color: #333;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    text-decoration: none; 
+    color: white; 
+    transition: background-color 0.3s ease; 
+}
+
+.github:hover {
+    background-color: #24292e;
+}
+.rightSection {
+    width: 80%;
+    margin: 70px 0;
+}
+
+.image-dp {
+    width: 229px;
+    margin: 23px;
+    border-radius: 78px;
+    border: 2px solid rgb(23, 3, 31);
+}
+
+.purple {
+    color: purple;
+}
+
+#element {
+    color: purple;
+}
+
+.secondSection {
+    background-color: rgb(230, 230, 250); 
+}
+
+.secondSection h2 {
+    text-align: center;
+    color: rgb(75, 0, 130); /* Indigo text */
+}
+
+.academics-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.academics-list li {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/* Specific styles for the thirdSection */
+.thirdSection {
+    background-color: rgb(240, 248, 255); /* Alice blue background */
+}
+
+.thirdSection h2 {
+    text-align: center;
+    color: rgb(25, 25, 112); /* Midnight blue text */
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills-list li {
+    padding: 10px;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 5px 15px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fourthSection {
+    background-color: rgb(245, 245, 245); /* Light gray background */
+}
+
+.fourthSection h2 {
+    text-align: center;
+    color: rgb(0, 102, 204); /* Blue text */
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link i {
+    margin-right: 8px;
+}
+
+/* LinkedIn specific styles */
+.linkedin {
+    background-color: #0077B5;
+}
+
+.linkedin:hover {
+    background-color: #005582;
+}
+
+/* Twitter specific styles */
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.twitter:hover {
+    background-color: #0d8de3;
+}
+
+/* Email specific styles */
+.email {
+    background-color: #D44638;
+}
+
+.email:hover {
+    background-color: #b43228;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1244px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .firstSection {
+        flex-direction: column-reverse;
+    }
+    .buttons {
+        text-align: center;
+    }
+}
+
+.footer {
+    background-color: rgb(23, 3, 31);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer p {
+    margin: 0;
+    padding: 5px;
+}
